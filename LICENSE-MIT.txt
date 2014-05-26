@@ -1,4 +1,4 @@
-Copyright Mathias Bynens <http://mathiasbynens.be/>
+Copyright (c) 2014 Angel Gil <http://about.me/angelgil/>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
