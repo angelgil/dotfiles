@@ -1,5 +1,6 @@
 # Make vim the default editor
-export EDITOR="vim"
+export VISUAL="vim"
+export EDITOR="$VISUAL"
 
 # Larger bash history (default is 500)
 export HISTSIZE=2000
