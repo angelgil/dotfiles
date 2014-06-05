@@ -5,7 +5,7 @@ set nocompatible
 set background=dark
 colorscheme desert
 
-" Automatically update file when editted outside of vim
+" Automatically read file when editted outside of vim
 set autoread
 
 " Use the OS clipboard by default
@@ -46,18 +46,13 @@ if exists("+syntax")
     syntax on
 endif
 
-"" Highlight current line
-"if exists("+cursorline")
-"   set cursorline
-"endif
-
 " Make tabs as wide as four spaces
 set tabstop=4
 " 4 spaces for autoindenting
 set shiftwidth=4
 " When <BS>, pretend a tab is removed even if spaces
 set softtabstop=4
-" Expand tabs to spaces (overloadable by file type)
+" Expand tabs to spaces
 set expandtab
 
 " Use line wrapping
