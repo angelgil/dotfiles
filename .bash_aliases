@@ -29,6 +29,9 @@ alias l="ls -lF --color"
 # List all files colorized in long format, including dot files
 alias la="ls -laF --color"
 
+# List all files colorized in human-readable long format, including dot files
+alias ll="ls -laFh --color"
+
 # List only directories
 alias lsd="ls -dl --color */"
 
